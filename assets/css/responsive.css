@@ -1,0 +1,126 @@
+@media(max-width:1313.90px){
+  header .nav-wrapper{
+    padding-left: 0px;
+  }
+  header ul li+ li{
+    padding-left: 20px;
+  }
+  header .contact-wrapper {
+    padding-left: 0px;
+  }
+}
+@media(max-width:1250px){
+  .clients-area .content-wrapper {
+    gap: 30px;
+  }
+  .clients-info .title{
+    font-size: 37px;
+  }
+  .clients-area .clients-img .bottom .left{
+    padding: 10px;
+  }
+  .clients-area .clients-img .bottom .left h5{
+    font-size: 21px;
+  }
+}
+@media(max-width:1070px){
+  header .nav-wrapper{
+    display: none;
+  }
+  .mobile-btn{
+    display: inline-block;
+  }
+
+}
+@media(max-width:991.90px){
+  .clients-area .content-wrapper {
+    flex-direction:column;
+  }
+  .clients-area .clients-img{
+    margin: 0 auto;
+  }
+
+  .clients-area .clients-info {
+    max-width: 100%;
+  }
+  .clients-info .title {
+    font-size: 28px;
+  }
+  .clients-area .clients-info p{
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+
+}
+@media(max-width:765px){
+  .hero-area {
+    padding: 85px 0;
+  }
+  .hero-area .hero-h1{
+    font-size: 50px;
+  }
+}
+@media(max-width:575px){
+  header{
+    padding: 30px 0;
+  }
+  .logo-wrapper img {
+    max-width: 100px;
+  }
+  header .contact-wrapper .number{
+    display: none;
+  }
+  .contact-btn a {
+    padding: 10px 25px;
+    margin-left: 15px;
+  }
+  .mobile-btn {
+    margin-left: 15px;
+  }
+  .hero-area{
+    padding: 50px 0;
+  }
+  .hero-area .hero-h1{
+    font-size: 31px;
+    line-height: 25px;
+  }
+  .clients-area .clients-img .top{
+    flex-direction: column-reverse;
+  }
+  .clients-area .clients-img .top .left{
+    margin: 0 auto;
+    z-index: 3;
+  }
+
+
+  .clients-area .clients-img .top .right{
+    width: 100%;
+    text-align: center;
+    top: 15px;
+    margin-left: 0;
+  }
+  .clients-area .clients-img .top .right .img-wrapper{
+    justify-content: center;
+  }
+  .clients-area .clients-img .bottom {
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+  }
+  .clients-area .clients-img .bottom .left {
+    padding: 20px;
+    right: 0;
+    top: -5px;
+  }
+  .clients-area .clients-img .bottom .right{
+    top: -15px;
+    margin: 0 auto;
+  }
+
+  
+}
+@media(max-width:375px){
+  .clients-area .clients-img .top .right {
+    margin-left: -5px;
+  }
+}
